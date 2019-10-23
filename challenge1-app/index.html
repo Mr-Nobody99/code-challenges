@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Challenge</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .wrapper{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .btn{
+            width: 50vw;
+            height: 30vh;
+
+            margin-top: 10vh;
+            border-radius: 5px;
+        }#submit-btn{
+            display: none;
+        }
+        #solution{
+            display: none;
+        }
+        #input{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="intro" class="wrapper">
+        <h1>Code Challenge!</h1>
+        <p>
+            You are given an array of integers. Find the largest number that is the largest product that can be made from
+            multiplying any 3 intengers in the array given.
+        </p>
+        <button id="start-btn" class="btn">Try my solution</button>
+    </div>
+
+    <div id="solution" class="wrapper">
+        <h1>Give me some input</h1>
+        <p id="instructions">
+            Enter some numbers seperated by either spaces or commas:
+        </p>
+        <input id="input" type="text">
+        <h2 id="input-display">[]</h2>
+        <button id="submit-btn" class="btn">Submit</button>
+    </div>
+
+    <script>
+        require('./renderer-process/index');
+    </script>
+</body>
+</html>
