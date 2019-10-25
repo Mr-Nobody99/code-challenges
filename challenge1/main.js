@@ -14,6 +14,7 @@ class Utils{
     }
 }
 
+console.log(Utils.combo(8,4));
 const list = [];
 
 console.log('\nPlease enter a number or list of numbers seperated by a space or comma:');

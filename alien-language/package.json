@@ -1,0 +1,13 @@
+{
+  "name": "alien-language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start:small": "node main.js C:\\Users\\kutzy\\Documents\\GitHub\\code-challenges\\alien-language\\A-small-practice.txt",
+    "start:big": "node main.js C:\\Users\\kutzy\\Documents\\GitHub\\code-challenges\\alien-language\\A-large-practice.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
